@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Biodata</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Form Biodata</h2>
+        <form action="submit.php" method="post">
+            <label>Nama:</label>
+            <input type="text" name="nama" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Alamat:</label>
+            <textarea name="alamat" required></textarea>
+
+            <label>Gender:</label>
+            <select name="gender" required>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+</body>
+</html>
